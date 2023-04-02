@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Weather";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Search City and Get Weather Information</h1>
+
+<div>
+    <strong>City Name  : </strong><input id="txtCity" type="text" />
+    
+    <button id="btnSubmit">Submit</button>
+</div>
+
+
+<div>
+    <h2>Weather Information:-</h2>
+    <table class="table-bordered">
+
+        <tr>
+            <td>
+                <strong>Latitude: </strong>
+            </td>
+            <td>
+                <label id="lblLat"></label><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>Longitude: </strong>
+            </td>
+            <td>
+                <label id="lblLon"></label><br />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Temperature
+            </td>
+            <td>
+                <label id="lblTemp"></label><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Wind Speed 
+            </td>
+            <td>
+                <label id="lblWindSpeed"></label><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Wind Direction 
+            </td>
+            <td>
+                <label id="lblWindDirection"></label><br />
+            </td>
+        </tr>
+
+    </table>
+</div>
